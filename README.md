@@ -23,6 +23,10 @@
 <ul>
   <li>Icons made by <a href="https://www.flaticon.com/authors/pixel-perfect" title="Pixel perfect">Pixel perfect</a> from <a href="https://www.flaticon.com/" title="Flaticon" target="_blank">www.flaticon.com</a></li>
   <li><a href="https://www.alura.com.br" title="Alura" target="_blank">Alura</a></li>
+  <li><a href="https://www.linkedin.com/in/paulosilveira/" target="_blank"> Paulo Silveira </a></li>
+  <li><a href="https://www.linkedin.com/in/rafaella-ballerini-45875016a/" target="_blank"> Rafaella Ballerini </a>(<a  href="https://www.youtube.com/user/RafaellaBallerini" target="_blank">YouTube</a>)</li>
+  <li><a href="https://www.linkedin.com/in/guilherme-lima-developer/" target="_blank"> Guilherme Lima </a></li>
+  <li><a href="https://www.linkedin.com/in/omariosouto/" target="_blank"> Mário Souto</a> (<a href="https://www.youtube.com/channel/UCzR2u5RWXWjUh7CwLSvbitA" target="_blank">Dev Soutinho</a>)</li>
 </ul>
 
 <br>
