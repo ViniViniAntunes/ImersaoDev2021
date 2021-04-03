@@ -18,14 +18,17 @@
     <li><img src="images/diploma.png" width=25px> <a href="html/aula10_certificard.html" alt="Certificard" target="_blank">Certificard</a></li>
 </ol>
 
-<div align="center">Icons made by <a href="https://www.flaticon.com/authors/pixel-perfect" title="Pixel perfect">Pixel perfect</a> from <a href="https://www.flaticon.com/" title="Flaticon" target="_blank">www.flaticon.com</a></div>
-<div align="center">Created by <a href="https://github.com/ViniViniAntunes" target="_blank">Vini Antunes</a></div>
-<div align="center">Suported by <a href="https://www.alura.com.br" title="Alura" target="_blank">Alura</a></div>
+<h2><img src="images/agradecimentos.svg" width=50px/> Agradecimentos </h2>
+<ul>
+  <li>Icons made by <a href="https://www.flaticon.com/authors/pixel-perfect" title="Pixel perfect">Pixel perfect</a> from <a href="https://www.flaticon.com/" title="Flaticon" target="_blank">www.flaticon.com</a></li>
+  <li><a href="https://www.alura.com.br" title="Alura" target="_blank">Alura</a></li>
+</ul>
+
 <br>
 <h2> Autor </h2>
 <table>
-  <tr>
-    <td align="center"><a href="https://www.linkedin.com/in/vini-antunes/" target="_blank"><img src="https://avatars0.githubusercontent.com/u/57882903?s=460&u=caee8cc76060b036952e169feba0449f2d43519e&v=4" width="140px;" alt="foto do autor"/><br /><sub><b>Vini Antunes</b></sub></a><br /></td>
+  <tr>   
+    <td align="center">Created with <img src="https://i.pinimg.com/736x/b9/3a/1b/b93a1bd3736a4a471b08c1f57606381f.jpg" width=50px> by <a href="https://www.linkedin.com/in/vini-antunes/" target="_blank"><img src="https://avatars0.githubusercontent.com/u/57882903?s=460&u=caee8cc76060b036952e169feba0449f2d43519e&v=4" width="140px;" alt="foto do autor"/><br /><sub><b>Vini Antunes</b></sub></a><br /></td>
   <tr>
 </table>
 
