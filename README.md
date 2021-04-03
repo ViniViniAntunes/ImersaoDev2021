@@ -1,6 +1,12 @@
-<h1 align="center">Imersão Dev 2021</h1>
-
-<h2 align="center">Insígnias da imersão.dev</h2>
+<p align="center">
+  <img src="images/imersao.png" float="center" width=250px/>
+</p>
+    
+<h1 align="center">
+  <h2 align="center"><strong align="center"> Imersão Dev 2021 </strong></h2>
+</h1>
+<h3 align="center">Insígnias da imersão.dev</h3>
+<br>
 
 <ol>
     <li><img src="images/thermometer.png" width=25px> <a href="html/aula01_conversor_temperatura.html" alt="Conversor de temperatura" target="_blank">Conversor de temperatura</a></li>
