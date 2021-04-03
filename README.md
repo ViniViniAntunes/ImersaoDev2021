@@ -15,8 +15,8 @@
 <div align="center">Icons made by <a href="https://www.flaticon.com/authors/pixel-perfect" title="Pixel perfect">Pixel perfect</a> from <a href="https://www.flaticon.com/" title="Flaticon" target="_blank">www.flaticon.com</a></div>
 <div align="center">Created by <a href="https://github.com/ViniViniAntunes" target="_blank">Vini Antunes</a></div>
 <div align="center">Suported by <a href="https://www.alura.com.br" title="Alura" target="_blank">Alura</a></div>
-
-<h2><img src="https://unavatar.now.sh/github/ViniViniAntunes" width=50px> Autor </h2>
+___
+<h2> Autor </h2>
 
 <table>
   <tr>
