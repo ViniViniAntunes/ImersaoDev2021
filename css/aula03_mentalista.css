@@ -1,0 +1,60 @@
+body{
+    background-image: url("https://exitoina.uol.com.br/media/_versions/capaa_widelg.jpg");
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    font-family: 'Cinzel', serif;
+    margin-top: 200px;
+    /* margin-bottom: auto; */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#card {
+    background-color: #eccea8;
+    opacity: 80%;
+    text-align:center;
+    border: solid 4px #a37437;
+    border-radius: 10px;
+    margin: auto;
+    background-size: cover;
+    padding: 20px;
+    width: 280px;
+    height: 380px;
+}
+#bnt{
+    display: block;
+    margin: auto;
+    font-family: inherit;
+    /* height: 10px; */
+}
+  
+button, input {
+    margin-top: 20px;
+    background-color: #d8c5d1;
+    font-family: inherit;
+}
+  
+p {
+    font-size: 18px;
+    font-weight: bolder;
+    color: brown;
+}
+  
+.alura-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    left:10px;
+}
+  
+h1{
+    margin-top: 50px;
+}
+    
+.footer {
+    color: #b1854d;
+    font-size: 12px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}

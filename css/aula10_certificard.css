@@ -1,0 +1,77 @@
+body {
+    background-color: #FFDDD2;
+    font-family: 'Roboto Mono', monospace;
+}
+
+section {
+    background-color: #FFFFFF;
+    border: 3px solid #6D4C3D;
+    border-radius: 5px;
+    box-shadow: ;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    max-width: 500px;
+    padding: 15px;
+    -webkit-box-shadow: 5px 7px 14px 6px rgba(17,17,17,0.55); 
+    box-shadow: 5px 7px 14px 6px rgba(17,17,17,0.55);
+}
+
+section h1 {
+    font-size: 30px;
+    text-align: center;
+    /* margin-left: auto;
+    margin-right: auto; */
+}
+
+section h2 {
+    text-align: center;
+}
+
+header {
+    background-image: url('https://cinepop.com.br/wp-content/uploads/2021/02/pokemon-list.jpg');
+    background-size: cover;
+    height: 80px;
+}
+
+section div {
+    background-color: #EDEDED;
+    border: 2px solid #6D4C3D;
+    border-radius: 5px;
+    /* margin: 15px; */
+    padding: 15px;
+}
+
+header img {
+    border: 8px solid white;
+    border-radius: 100%;
+    display: block;
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    transform: translateY(-50%);
+    -webkit-box-shadow: 5px 7px 14px 6px rgba(17,17,17,0.55); 
+    box-shadow: 5px 7px 14px 6px rgba(17,17,17,0.55);    
+    width: 150px;
+}
+
+footer {
+    font-size: 12px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 25px;
+    text-align: center;
+}
+
+ol {
+    font-size: 18px;
+}
+
+ol img{
+    width: 25px;
+}
+
+li {
+    padding: 5px;
+}
