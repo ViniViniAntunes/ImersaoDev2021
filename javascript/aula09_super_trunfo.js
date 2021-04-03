@@ -81,7 +81,7 @@ var cartaMarvel = {
 var cartaMaquina
 var cartaJogador
 var cartas = [cartaPaulo, cartaRafa, cartaGui, cartaLol, cartaNaruto, cartaHarry, cartaBatman, cartaMarvel]
-//            0           1           2          3         4            5            6           7     
+//            0           1           2          3         4            5            6           7          
 
 var pontosJogador = 0
 var pontosMaquina = 0
@@ -99,19 +99,16 @@ function atualizaQuantidadeDeCartas() {
 function atualizaPlacar() {
     var divPlacar = document.getElementById('placar')
     var html = "Jogador " + pontosJogador + " X " + pontosMaquina + " Máquina"
+
     divPlacar.innerHTML = html
 }
 
 function sortearCarta() {
-    
     var numeroCartaMaquina = parseInt(Math.random() * cartas.length)
     cartaMaquina = cartas[numeroCartaMaquina]
     cartas.splice(numeroCartaMaquina, 1)
 
     var numeroCartaJogador = parseInt(Math.random() * cartas.length)
-    // while (numeroCartaJogador == numeroCartaMaquina) {
-    //     numeroCartaJogador = parseInt(Math.random() * 3)
-    // }
     cartaJogador = cartas[numeroCartaJogador]
     cartas.splice(numeroCartaJogador, 1)
 
@@ -120,7 +117,6 @@ function sortearCarta() {
 
     exibeCartaJogador()
 }
-
 
 function exibeCartaJogador() {
     var divCartaJogador = document.getElementById("carta-jogador")
@@ -154,23 +150,21 @@ function jogar() {
     if (cartaJogador.atributos[atributoSelecionado] > cartaMaquina.atributos[atributoSelecionado]) {
         htmlResultado = '<p class="resultado-final">Venceu</p>'
         pontosJogador++
-
     } else if (cartaJogador.atributos[atributoSelecionado] < cartaMaquina.atributos[atributoSelecionado]) {
         htmlResultado = '<p class="resultado-final">Perdeu</p>'
         pontosMaquina++
-
     } else {
         htmlResultado = '<p class="resultado-final">Empatou</p>'
     }
 
     if (cartas.length == 0) {
-        alert("Fim de jogo!")
+        alert("Fim de jogo")
         if (pontosJogador > pontosMaquina) {
-            htmlResultado = `<p class="resultado-final">O jogo acabor e você VENCEU!!!</p>`
-        } else if (pontosJogador < pontosMaquina) {
-            htmlResultado = `<p class="resultado-final">O jogo acabor e você PERDEU!!!</p>`
+            htmlResultado = '<p class="resultado-final">Venceu</p>'
+        } else if (pontosMaquina > pontosJogador) {
+            htmlResultado = '<p class="resultado-final">Perdeu</p>'
         } else {
-            htmlResultado = `<p class="resultado-final">O jogo acabor e você EMPATOU!!!</p>`
+            htmlResultado = '<p class="resultado-final">Empatou</p>'
         }
     } else {
         document.getElementById('btnProximaRodada').disabled = false
@@ -178,7 +172,6 @@ function jogar() {
 
     divResultado.innerHTML = htmlResultado
     document.getElementById('btnJogar').disabled = true
-    document.getElementById('btnProximaRodada').disabled = false
 
     atualizaPlacar()
     exibeCartaMaquina()
@@ -206,6 +199,7 @@ function proximaRodada() {
     var divCartas = document.getElementById('cartas')
 
     divCartas.innerHTML = `<div id="carta-jogador" class="carta"></div> <div id="carta-maquina" class="carta"></div>`
+
     document.getElementById('btnSortear').disabled = false
     document.getElementById('btnJogar').disabled = true
     document.getElementById('btnProximaRodada').disabled = true
