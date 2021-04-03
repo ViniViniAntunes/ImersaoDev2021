@@ -8,6 +8,7 @@
 
 <br>
 
+<h2> Desafios </h2>
 <ol>
     <li><img src="images/thermometer.png" width=25px> <a href="html/aula01_conversor_temperatura.html" alt="Conversor de temperatura" target="_blank">Conversor de temperatura</a></li>
     <li><img src="images/calculate.png" width=25px> <a href="html/aula02_calculadora.html" alt="Calculadora" target="_blank">Calculadora</a></li>
@@ -18,7 +19,7 @@
     <li><img src="images/diploma.png" width=25px> <a href="html/aula10_certificard.html" alt="Certificard" target="_blank">Certificard</a></li>
 </ol>
 
-<h2><img src="images/agradecimentos.svg" width=50px/> Agradecimentos </h2>
+<h2> Agradecimentos </h2>
 <ul>
   <li>Icons made by <a href="https://www.flaticon.com/authors/pixel-perfect" title="Pixel perfect">Pixel perfect</a> from <a href="https://www.flaticon.com/" title="Flaticon" target="_blank">www.flaticon.com</a></li>
   <li><a href="https://www.alura.com.br" title="Alura" target="_blank">Alura</a></li>
