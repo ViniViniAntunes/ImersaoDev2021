@@ -3,7 +3,7 @@
 <h2 align="center">Insígnias da imersão.dev</h2>
 
 <ol>
-    <li align="center"><img src="images/thermometer.png" width=25px> <a href="html/aula01_conversor_temperatura.html" alt="Conversor de temperatura" target="_blank">Conversor de temperatura</a></li>
+    <li><img src="images/thermometer.png" width=25px> <a href="html/aula01_conversor_temperatura.html" alt="Conversor de temperatura" target="_blank">Conversor de temperatura</a></li>
     <li><img src="images/calculate.png" width=25px> <a href="html/aula02_calculadora.html" alt="Calculadora" target="_blank">Calculadora</a></li>
     <li><img src="images/bulb_brain.png" width=25px> <a href="html/aula03_mentalista.html" alt="Mentalista" target="_blank">Mentalista</a></li>
     <li><img src="images/movie.png" width=25px> <a href="html/aula05_aluraflix.html" alt="Aluraflix" target="_blank">Aluraflix</a></li>
